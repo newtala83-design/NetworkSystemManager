@@ -6,36 +6,36 @@ The project allows users to manage network devices, connections, and networks th
 
 ## Features
 
-*-Add network devices
-*-View registered devices
-*-Delete devices
-*-Add network connections
-*-View network connections
-*-Add networks
-*-View networks
-*-Display a graphical representation of a selected network
-*-Store and retrieve data using Oracle Database
+* Add network devices
+* View registered devices
+* Delete devices
+* Add network connections
+* View network connections
+* Add networks
+* View networks
+* Display a graphical representation of a selected network
+* Store and retrieve data using Oracle Database
 
 ## Technologies Used
-*-Python
-*-Oracle Database
-*-SQL
-*-Python
-*-oracledb
-*-NetworkX
-*-Matplotlib
-*-python-dotenv
-*-Git & GitHub
+* Python
+* Oracle Database
+* SQL
+* Python
+* oracledb
+* NetworkX
+* Matplotlib
+* python-dotenv
+* Git & GitHub
 
 ## Database
 
 The database contains entities for managing:
 
-*-Devices
-*-Device Types
-*-Networks
-*-Connections
-*-Ping Logs
+* Devices
+* Device Types
+* Networks
+* Connections
+* Ping Logs
 
 The database structure and table creation scripts are available in:
 
@@ -55,7 +55,7 @@ NetworkSystemManager/
 │   └── database.sql
 │
 └── screenshots/
-
+```
 **Network Visualization**
 
 The project uses NetworkX and Matplotlib to visualize the connections between devices in a selected network.
