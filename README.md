@@ -1,27 +1,29 @@
-# Network System Manager
+# Python Network System Manager
 
-A Python-based network device management system connected to an Oracle Database.
+A Python-based database application for managing network devices, networks, and connections using Oracle Database, with NetworkX and Matplotlib for network visualization.
 
-The project allows users to manage network devices, connections, and networks through a simple command-line interface. It also provides a graphical visualization of network connections using NetworkX and Matplotlib.
+## Project Overview
 
-## Features
+This project is a command-line application developed in Python and connected to an Oracle Database.
+It provides a simple system for storing and managing network-related information, including devices, device types, networks, and connections. The application also includes a graphical visualization feature that represents device connections within a selected network.
+## Key Features
 
 * Add network devices
-* View registered devices
+* View registered devices and their information
 * Delete devices
-* Add network connections
+* Add network connections 
 * View network connections
 * Add networks
 * View networks
-* Display a graphical representation of a selected network
+* Select a network and visualize its device connections
 * Store and retrieve data using Oracle Database
+* Display network relationships using NetworkX and Matplotlib
 
 ## Technologies Used
 * Python
 * Oracle Database
 * SQL
-* Python
-* oracledb
+* Python-oracledb
 * NetworkX
 * Matplotlib
 * python-dotenv
@@ -35,11 +37,15 @@ The database contains entities for managing:
 * Device Types
 * Networks
 * Connections
-* Ping Logs
 
 The database structure and table creation scripts are available in:
 
 `sql/database.sql`
+
+## Data Management
+
+The application communicates with the Oracle Database through Python using the oracledb library.
+Users can perform database operations directly through the application's command-line menu, including adding, viewing, and deleting records.
 
 ## Project Structure
 ```text
@@ -56,7 +62,7 @@ NetworkSystemManager/
 │
 └── screenshots/
 ```
-**Network Visualization**
+**Python Network Visualization**
 
 The project uses NetworkX and Matplotlib to visualize the connections between devices in a selected network.
 
