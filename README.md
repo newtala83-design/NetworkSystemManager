@@ -6,6 +6,12 @@ A Python-based database application for managing network devices, networks, and 
 
 This project is a command-line application developed in Python and connected to an Oracle Database.
 It provides a simple system for storing and managing network-related information, including devices, device types, networks, and connections. The application also includes a graphical visualization feature that represents device connections within a selected network.
+
+![Main screen + Showing devices](1st.png)
+![Showing Connections](2nd.png)
+![Showing Networks](3rd.png)
+![Showing Network graph](graph.png)
+
 ## Key Features
 
 * Add network devices
